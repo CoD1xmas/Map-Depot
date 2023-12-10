@@ -1,0 +1,14 @@
+Light
+{
+	life				500   //Length of time the light is on in milliseconds, 1000 = 1 second
+	
+	rgb   //Color of the light can be changed here, with Red Green Blue (2.55 2.55 2.55 = White)
+	{
+		start	1 1 0   //Color of the light at the beginning of its life
+	}
+
+	size
+	{
+		start			300   //Intensity of the light at the beginning of its life
+	}
+}

@@ -1,0 +1,5 @@
+name,sequence,file,vol_min,vol_max,pitch_min,pitch_max,dist_min,dist_max,channel,type,probability,loop,masterslave,loadspec,subtitle
+
+null,,null.wav,,,,,,,,,,,,,
+
+harbor_xmas,,ambient/harbor_xmas.mp3,1.4,,,,,,local,streamed,,looping,,all_mp
