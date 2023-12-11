@@ -16,7 +16,7 @@ while IFS='' read -r L; do
 
     ZIPTOTAL=$(( ZIPTOTAL + "$(du -s "maps/$L" | cut -f1)" ))
 
-    7z a -tzip -x'@ignorelist' "$FSUFFIX$PAK.pk3" "./maps/$L/"* # /dev/null 2>&1
+    7z a -tzip "$FSUFFIX$PAK.pk3" "./maps/$L/"* # /dev/null 2>&1
 
     if [[ "$ZIPTOTAL" -gt "$ZIPSPLIT" ]]; then
         PAK=$(( PAK + 1 ))
