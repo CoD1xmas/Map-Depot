@@ -1,0 +1,5 @@
+{
+     map         "mp_bellicourt_night_fix"
+     longname    "mp_bellicourt_night_fix"
+     gametype    "dm tdm sd re bel hq"
+}
