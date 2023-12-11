@@ -1,0 +1,7 @@
+{
+
+	map		"SpeedballXtra"
+	longname	"SpeedBallXtra"
+	gametype	"dm tdm bel re hq sd ctf"
+
+}

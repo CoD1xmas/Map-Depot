@@ -1,0 +1,18 @@
+{
+"classname" "worldspawn"
+// brush 0
+{
+( -62 4 0 ) ( -62 -11 0 ) ( 29 -11 0 ) common/clip_nosight_dirt 0 0 0 0.25 0.25 0 0 0 0
+( -8 -7 29 ) ( -8 5 29 ) ( 28 5 29 ) common/clip_nosight_dirt 0 0 0 0.25 0.25 0 0 0 0
+( 29 5 0 ) ( 29 5 33 ) ( -62 5 33 ) common/clip_nosight_dirt 0 0 0 0.25 0.25 0 0 0 0
+( 28 -7 29 ) ( 28 5 29 ) ( 28 5 0 ) common/clip_nosight_dirt 0 0 0 0.25 0.25 0 0 0 0
+( -62 -7 0 ) ( -62 -7 33 ) ( 29 -7 33 ) common/clip_nosight_dirt 0 0 0 0.25 0.25 0 0 0 0
+( -8 5 29 ) ( -8 -7 29 ) ( -35 -7 0 ) common/clip_nosight_dirt 0 0 0 0.25 0.25 0 0 0 0
+}
+}
+// entity 1
+{
+"classname" "misc_model"
+"model" "xmodel/tj_sandbags_left"
+"origin" "0 0 0"
+}

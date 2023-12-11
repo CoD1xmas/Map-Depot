@@ -1,0 +1,4 @@
+name,sequence,file,vol_min,vol_max,pitch_min,pitch_max,dist_min,dist_max,channel,type,probability,loop,masterslave,loadspec,subtitle
+null,1,null.wav,,,,,,,,,,,,,
+
+amb_stadium,,ambient/amb_stadium.mp3,1.1,,,,,,local,streamed,,looping,,all_mp

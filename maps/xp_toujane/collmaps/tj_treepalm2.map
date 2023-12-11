@@ -1,0 +1,45 @@
+{
+"classname" "worldspawn"
+// brush 0
+{
+( -31 7 181 ) ( -31 -9 181 ) ( -17 -9 181 ) xp_toujane/effects/clip_nosight_wood 0 0 0 0.25 0.25 0 0 0 0
+( -32 -7 265 ) ( -32 6 265 ) ( -17 6 265 ) xp_toujane/effects/clip_nosight_wood 0 0 0 0.25 0.25 0 0 0 0
+( -20 6 216 ) ( -34 6 216 ) ( -33 7 181 ) xp_toujane/effects/clip_nosight_wood 0 0 0 0.25 0.25 0 0 0 0
+( -32 6 217 ) ( -32 -7 217 ) ( -31 -9 181 ) xp_toujane/effects/clip_nosight_wood 0 0 0 0.25 0.25 0 0 0 0
+( -34 -7 216 ) ( -20 -7 216 ) ( -17 -9 181 ) xp_toujane/effects/clip_nosight_wood 0 0 0 0.25 0.25 0 0 0 0
+( -17 -7 217 ) ( -17 6 217 ) ( -17 7 181 ) xp_toujane/effects/clip_nosight_wood 0 0 0 0.25 0.25 0 0 0 0
+}
+// brush 1
+{
+( -14 7 146 ) ( -30 7 146 ) ( -30 -9 146 ) xp_toujane/effects/clip_nosight_wood 0 0 0 0.25 0.25 0 0 0 0
+( -31 6 181 ) ( -17 6 181 ) ( -17 -7 181 ) xp_toujane/effects/clip_nosight_wood 0 0 0 0.25 0.25 0 0 0 0
+( -17 6 181 ) ( -31 6 181 ) ( -30 7 146 ) xp_toujane/effects/clip_nosight_wood 0 0 0 0.25 0.25 0 0 0 0
+( -31 8 181 ) ( -31 -11 181 ) ( -30 -13 146 ) xp_toujane/effects/clip_nosight_wood 0 0 0 0.25 0.25 0 0 0 0
+( -31 -7 181 ) ( -17 -7 181 ) ( -14 -9 146 ) xp_toujane/effects/clip_nosight_wood 0 0 0 0.25 0.25 0 0 0 0
+( -17 -11 181 ) ( -17 9 181 ) ( -14 10 146 ) xp_toujane/effects/clip_nosight_wood 0 0 0 0.25 0.25 0 0 0 0
+}
+// brush 2
+{
+( 1 -13 48 ) ( 1 10 48 ) ( -22 10 48 ) xp_toujane/effects/clip_nosight_wood 0 0 0 0.25 0.25 0 0 0 0
+( -30 -9 146 ) ( -30 7 146 ) ( -14 7 146 ) xp_toujane/effects/clip_nosight_wood 0 0 0 0.25 0.25 0 0 0 0
+( -6 7 145 ) ( -29 7 145 ) ( -22 10 48 ) xp_toujane/effects/clip_nosight_wood 0 0 0 0.25 0.25 0 0 0 0
+( -30 7 146 ) ( -30 -9 146 ) ( -22 -13 48 ) xp_toujane/effects/clip_nosight_wood 0 0 0 0.25 0.25 0 0 0 0
+( -29 -9 145 ) ( -6 -9 145 ) ( 8 -13 48 ) xp_toujane/effects/clip_nosight_wood 0 0 0 0.25 0.25 0 0 0 0
+( -14 -9 146 ) ( -14 7 146 ) ( 1 10 48 ) xp_toujane/effects/clip_nosight_wood 0 0 0 0.25 0.25 0 0 0 0
+}
+// brush 3
+{
+( 15 14 -7 ) ( -15 14 -7 ) ( -15 -17 -7 ) xp_toujane/effects/clip_nosight_wood 0 0 0 0.25 0.25 0 0 0 0
+( -22 10 48 ) ( 1 10 48 ) ( 1 -13 48 ) xp_toujane/effects/clip_nosight_wood 0 0 0 0.25 0.25 0 0 0 0
+( 1 10 48 ) ( -22 10 48 ) ( -15 14 -7 ) xp_toujane/effects/clip_nosight_wood 0 0 0 0.25 0.25 0 0 0 0
+( -22 6 48 ) ( -22 -11 48 ) ( -15 -14 -7 ) xp_toujane/effects/clip_nosight_wood 0 0 0 0.25 0.25 0 0 0 0
+( -22 -13 48 ) ( 1 -13 48 ) ( 15 -17 -7 ) xp_toujane/effects/clip_nosight_wood 0 0 0 0.25 0.25 0 0 0 0
+( 1 -11 48 ) ( 1 6 48 ) ( 15 10 -7 ) xp_toujane/effects/clip_nosight_wood 0 0 0 0.25 0.25 0 0 0 0
+}
+}
+// entity 1
+{
+"model" "xmodel/tj_treepalm2"
+"classname" "misc_model"
+"origin" "0 0 0"
+}

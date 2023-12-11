@@ -1,0 +1,29 @@
+{
+"classname" "worldspawn"
+// brush 0
+{
+( 44 20 64 ) ( -44 20 64 ) ( -44 -36 64 ) common/clip_nosight_metal 16 -16 0 0.25 0.25 0 0 0 0
+( -28 24 88 ) ( 32 24 88 ) ( 32 -24 88 ) common/clip_nosight_metal 16 -16 0 0.25 0.25 0 0 0 0
+( -28 -24 88 ) ( 32 -24 88 ) ( 48 -36 64 ) common/clip_nosight_metal 16 0 0 0.25 0.25 0 0 0 0
+( 32 -36 88 ) ( 32 36 88 ) ( 48 36 64 ) common/clip_nosight_metal 16 0 0 0.25 0.25 0 0 0 0
+( 32 24 88 ) ( -28 24 88 ) ( -44 36 64 ) common/clip_nosight_metal 16 0 0 0.25 0.25 0 0 0 0
+( -28 36 88 ) ( -28 -36 88 ) ( -44 -36 64 ) common/clip_nosight_metal 16 0 0 0.25 0.25 0 0 0 0
+}
+// brush 1
+{
+( -92 40 64 ) ( -92 -40 64 ) ( -92 -40 0 ) common/clip_nosight_metal 0 0 0 0.25 0.25 0 0 0 0
+( -88 44 80 ) ( -120 44 80 ) ( -120 44 0 ) common/clip_nosight_metal 96 0 0 0.25 0.25 0 0 0 0
+( 92 -40 80 ) ( 92 40 80 ) ( 92 40 0 ) common/clip_nosight_metal 0 0 0 0.25 0.25 0 0 0 0
+( -120 -44 80 ) ( -88 -44 80 ) ( -88 -44 0 ) common/clip_nosight_metal 96 0 0 0.25 0.25 0 0 0 0
+( 48 40 64 ) ( 48 -40 64 ) ( -64 -40 64 ) common/clip_nosight_metal 96 0 0 0.25 0.25 0 0 0 0
+( -88 40 0 ) ( -120 40 0 ) ( -120 -40 0 ) common/clip_nosight_metal 96 0 0 0.25 0.25 0 0 0 0
+( -64 40 64 ) ( -64 -40 64 ) ( -92 -40 44 ) common/clip_nosight_metal 96 0 0 0.25 0.25 0 0 0 0
+( 48 -40 64 ) ( 48 40 64 ) ( 92 40 44 ) common/clip_nosight_metal 96 0 0 0.25 0.25 0 0 0 0
+}
+}
+// entity 1
+{
+"origin" "0 0 0"
+"classname" "misc_model"
+"model" "xmodel/tj_armored_car_d"
+}

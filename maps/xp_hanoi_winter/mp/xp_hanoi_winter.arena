@@ -1,0 +1,6 @@
+{
+     map         "xp_hanoi_winter"
+     longname    "xp_hanoi_winter"
+     gametype    "dm tdm sd re bel"
+}
+

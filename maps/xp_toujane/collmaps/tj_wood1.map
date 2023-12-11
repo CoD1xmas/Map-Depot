@@ -1,0 +1,45 @@
+{
+"classname" "worldspawn"
+// brush 0
+{
+( 24 -27 18 ) ( -1 -27 18 ) ( -1 -31 18 ) common/clip_nosight 4 0 0 0.25 0.25 0 0 0 0
+( -1 17 20 ) ( -1 21 20 ) ( 24 21 20 ) common/clip_nosight 4 0 0 0.25 0.25 0 0 0 0
+( -1 -31 20 ) ( 24 -31 20 ) ( 24 -31 18 ) common/clip_nosight 4 0 0 0.25 0.25 0 0 0 0
+( 24 -31 20 ) ( 24 -27 20 ) ( 24 -27 18 ) common/clip_nosight 0 0 0 0.25 0.25 0 0 0 0
+( 24 31 20 ) ( -1 31 20 ) ( -1 31 18 ) common/clip_nosight 4 0 0 0.25 0.25 0 0 0 0
+( 22 -27 20 ) ( 22 -31 20 ) ( 22 -31 18 ) common/clip_nosight 0 0 0 0.25 0.25 0 0 0 0
+}
+// brush 1
+{
+( 25 88 15 ) ( 0 88 15 ) ( 0 24 15 ) common/clip_nosight 0 96 0 0.25 0.25 0 0 0 0
+( 0 24 18 ) ( 0 88 18 ) ( 25 88 18 ) common/clip_nosight 0 96 0 0.25 0.25 0 0 0 0
+( 0 26 19 ) ( 25 26 19 ) ( 25 26 16 ) common/clip_nosight 0 0 0 0.25 0.25 0 0 0 0
+( 25 24 18 ) ( 25 88 18 ) ( 25 88 15 ) common/clip_nosight -96 0 0 0.25 0.25 0 0 0 0
+( 25 30 18 ) ( 0 30 18 ) ( 0 30 15 ) common/clip_nosight 0 0 0 0.25 0.25 0 0 0 0
+( 0 88 18 ) ( 0 24 18 ) ( 0 24 15 ) common/clip_nosight -96 0 0 0.25 0.25 0 0 0 0
+}
+// brush 2
+{
+( 25 32 15 ) ( 0 32 15 ) ( 0 -32 15 ) common/clip_nosight 0 0 0 0.25 0.25 0 0 0 0
+( 0 -32 18 ) ( 0 32 18 ) ( 25 32 18 ) common/clip_nosight 0 0 0 0.25 0.25 0 0 0 0
+( 0 -30 19 ) ( 25 -30 19 ) ( 25 -30 16 ) common/clip_nosight 0 0 0 0.25 0.25 0 0 0 0
+( 25 -32 18 ) ( 25 32 18 ) ( 25 32 15 ) common/clip_nosight 0 0 0 0.25 0.25 0 0 0 0
+( 25 -26 18 ) ( 0 -26 18 ) ( 0 -26 15 ) common/clip_nosight 0 0 0 0.25 0.25 0 0 0 0
+( 0 32 18 ) ( 0 -32 18 ) ( 0 -32 15 ) common/clip_nosight 0 0 0 0.25 0.25 0 0 0 0
+}
+// brush 3
+{
+( 29 -32 15 ) ( 29 32 15 ) ( 0 32 41 ) common/clip_nosight 0 0 0 0.25 0.25 0 0 0 0
+( 30 32 16 ) ( 30 -32 16 ) ( 1 -32 42 ) common/clip_nosight 0 0 0 0.25 0.25 0 0 0 0
+( 2 -28 42 ) ( 28 -28 42 ) ( 28 -28 37 ) common/clip_nosight 0 0 0 0.25 0.25 0 0 0 0
+( 29 32 15 ) ( 29 -32 15 ) ( 30 -32 16 ) common/clip_nosight 0 0 0 0.25 0.25 0 0 0 0
+( 27 28 42 ) ( 1 28 42 ) ( 1 28 37 ) common/clip_nosight 0 0 0 0.25 0.25 0 0 0 0
+( 1 32 42 ) ( 1 -32 42 ) ( 0 -32 41 ) common/clip_nosight 0 0 0 0.25 0.25 0 0 0 0
+}
+}
+// entity 1
+{
+"origin" "0 0 0"
+"model" "xmodel/tj_wood1"
+"classname" "misc_model"
+}
