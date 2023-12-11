@@ -10,6 +10,10 @@ while IFS='' read -r L; do
         continue
     fi
 
+    if [[ ! -d "maps/$L" ]]; then
+        echo 'Directory (maps/'"$L"') from maplist does not exist.'; continue
+    fi
+
     ZIPTOTAL=$(( ZIPTOTAL + "$(du -s "maps/$L" | cut -f1)" ))
 
     7z a -tzip -x'@ignorelist' "$FSUFFIX$PAK.pk3" "./maps/$L/"* # /dev/null 2>&1
