@@ -22,7 +22,7 @@
 # scripts
 *.bat
 *.cmd
-*.sh
+maps/**/*.sh
 
 # readme files
 *[Rr]ead[Mm]e*
