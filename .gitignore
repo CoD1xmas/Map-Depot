@@ -1,0 +1,49 @@
+# project files
+*.pk3
+*.code-workspace
+
+# binaries / libraries
+*.exe
+*.dll
+*.lib
+*.a
+*.so
+*.dylib
+
+# archives
+*.zip
+*.gz
+*.tar
+*.bz2
+*.xz
+*.7z
+*.rar
+
+# scripts
+*.bat
+*.cmd
+*.sh
+
+# readme files
+*[Rr]ead[Mm]e*
+*.md
+
+# windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# folder config file
+[Dd]esktop.ini
+
+# codradiant files
+maps/**/maps/[Mm][Pp]/*.bak
+maps/**/maps/[Mm][Pp]/*.lin
+maps/**/maps/[Mm][Pp]/*.map
+maps/**/maps/[Mm][Pp]/*.poly
+maps/**/maps/[Mm][Pp]/*.prt
+
+# other useless cod files
+maps/**/collmaps/
+maps/**/eagle/
