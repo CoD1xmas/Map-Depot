@@ -19,6 +19,11 @@ if [[ -z "$ZIPCOMMAND" ]]; then
     exit
 fi
 
+# remove any existing pk3s
+if [[ -f "$FSUFFIX$PAK.pk3" ]]; then
+    rm *.pk3
+fi
+
 # read in map list
 MAPSRAW=()
 while IFS='' read -r L; do
