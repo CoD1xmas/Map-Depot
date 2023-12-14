@@ -1,0 +1,6 @@
+
+{
+	map		"mp_shipment"
+	longname	"mp_shipment"
+	gametype	"dm tdm"
+}
