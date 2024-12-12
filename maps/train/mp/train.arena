@@ -1,0 +1,5 @@
+{
+map		"train"
+longname	"train"
+gametype        "dm tdm ctf bel hq sd"
+}

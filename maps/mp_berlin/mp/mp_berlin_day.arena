@@ -1,0 +1,5 @@
+{
+	map		"mp_berlin_day"
+	longname	"mp_berlin_day"
+	gametype	"tdm"
+}

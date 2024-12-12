@@ -1,0 +1,5 @@
+{
+map "mp_subharbor_day"
+longname "mp_subharbor_day"
+gametype "dm tdm bel sd re hq"
+} 

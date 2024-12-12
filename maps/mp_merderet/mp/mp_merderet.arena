@@ -1,0 +1,5 @@
+{
+	map		"mp_merderet"
+	longname	"^3Merderet River"
+	gametype        "dm tdm re sd bel hq ctf dom"
+}

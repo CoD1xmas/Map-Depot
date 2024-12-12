@@ -1,0 +1,12 @@
+{
+	surfaceparm wood
+	nofog
+	{
+		map $texturename
+		//rgbGen lightingDiffuse
+		rgbGen identity
+		blendfunc blend
+		depthWrite
+	}
+}
+

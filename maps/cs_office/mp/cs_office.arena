@@ -1,0 +1,5 @@
+{
+	map		"cs_office"
+	longname	"cs_office"
+	gametype	"dm tdm sd bel hq"
+}

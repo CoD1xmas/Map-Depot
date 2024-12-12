@@ -1,0 +1,59 @@
+"# If the text in the first column of a row starts with a # character, the row is ignored",,
+,,"If the first column for a row is blank, then the row is ignored"
+# The first non-comment line of a sound alias file specifies the key name for all values appearing in this column.,,
+"# This means it is safe to swap entire columns around, though you should never swap partial columns.",,
+"# You can invent new keys, but the game will ignore them if it doesn't know about them.",,
+"# You can leave out keys, but the ""name"" and ""file"" keys must always be present.",,
+
+,name,name of the alias that is used to play this sound (required)
+,sequence,"used to uniquely identify alias entries when more than one sound goes to an alias, used only to catch unwanted duplicates (default = 0)"
+,file,the name of the file that contains the sound data (required)
+,vol_min,"0 is silent, 1 is full volume (default = 1)"
+,vol_max,"0 is silent, 1 is full volume (default = same as vol_min)"
+,pitch_min,"1 is normal playback, 2 is twice as fast, 0.5 is half as fast (default = 1)"
+,pitch_max,"1 is normal playback, 2 is twice as fast, 0.5 is half as fast (default = same as pitch_min)"
+,dist_min,"within this distance in inches, the sound is always full volume (default = 120)"
+,dist_max,"outside this distance in inches, the sound is not started.  If left blank or set to 0, the sound will play from any distance.  This does not affect sound volume falloff."
+,channel,"auto, menu, weapon, voice, item, body, local, music, announcer (default = auto)",,,,,,,,,,,,,
+,type,streamed / loaded (default = loaded),,,,,,,,,,,,,
+,probability,weight to use for the weighted probability of playing this sound instead of another sound (default = 1),,,,,,,,,,,,,
+,loop,"whether this sound is ""looping"" or ""nonlooping"" (default = ""nonlooping"")",,,,,,,,,,,,,
+,masterslave,"if ""master"", this is a master sound.  If a number, then this sound won't exceed this volume whenever any master sound is playing.  If blank, then neither master nor slave.",,,,,,,,,,,,,
+,loadspec,"space-separated list of which maps should use this alias; eg, ""burnville dawnville"".  If blank, the alias is used on all maps.",,,,,,,,,,,,,
+
+name,sequence,file,vol_min,vol_max,pitch_min,pitch_max,dist_min,dist_max,channel,type,probability,loop,masterslave,loadspec,subtitle
+
+#MP Zombies Commands,,,1,1,,,45,4800,voice,streamed,,,,
+zombie_follow_me,1,voiceovers/mp/zombies/Zombie_63.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
+zombie_follow_me,2,voiceovers/mp/zombies/Zombie_76.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
+zombie_move_in,,voiceovers/mp/zombies/Zombie_72.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
+zombie_fall_back,,voiceovers/mp/zombies/Zombie_50.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
+zombie_suppressing_fire,,voiceovers/mp/zombies/Zombie_52.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
+zombie_attack_right_flank,,voiceovers/mp/zombies/Zombie_71.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
+zombie_attack_left_flank,,voiceovers/mp/zombies/Zombie_66.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
+zombie_hold_position,1,voiceovers/mp/zombies/Zombie_44.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
+zombie_hold_position,2,voiceovers/mp/zombies/Zombie_51.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
+zombie_regroup,,voiceovers/mp/zombies/Zombie_70.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
+,,,1,1,,,45,4800,voice,streamed,,,,
+#MP Zombies Statements,,,1,1,,,45,4800,voice,streamed,,,,
+zombie_enemy_spotted,,voiceovers/mp/zombies/Zombie_70.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
+zombie_enemy_down,,voiceovers/mp/zombies/Zombie_07.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
+zombie_in_position,,voiceovers/mp/zombies/Zombie_57.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
+zombie_area_secure,,voiceovers/mp/zombies/Zombie_34.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
+zombie_grenade,1,voiceovers/mp/zombies/Zombie_54.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
+zombie_grenade,2,voiceovers/mp/zombies/Zombie_43.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
+zombie_sniper,,voiceovers/mp/zombies/Zombie_64.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
+zombie_need_reinforcements,,voiceovers/mp/zombies/Zombie_09.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
+zombie_hold_fire,1,voiceovers/mp/zombies/Zombie_55.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
+zombie_hold_fire,2,voiceovers/mp/zombies/Zombie_04.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
+,,,1,1,,,45,4800,voice,streamed,,,,
+#MP Zombies Responses,,,1,1,,,45,4800,voice,streamed,,,,
+zombie_yes_sir,,voiceovers/mp/zombies/Zombie_46.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
+zombie_no_sir,1,voiceovers/mp/zombies/Zombie_59.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
+zombie_no_sir,2,voiceovers/mp/zombies/Zombie_33.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
+zombie_on_my_way,,voiceovers/mp/zombies/Zombie_01.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
+zombie_sorry,,voiceovers/mp/zombies/Zombie_14.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
+zombie_great_shot,,voiceovers/mp/zombies/Zombie_05.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
+zombie_took_long_enough,,voiceovers/mp/zombies/Zombie_10.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
+zombie_youre_crazy,,voiceovers/mp/zombies/Zombie_68.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
+,,,1,1,,,45,4800,voice,streamed,,,,

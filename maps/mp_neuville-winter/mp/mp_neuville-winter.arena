@@ -1,0 +1,5 @@
+{
+	map		"mp_neuville-winter"
+	longname	"mp_neuville-winter"
+	gametype	"dm tdm sd re bel hq"
+}
