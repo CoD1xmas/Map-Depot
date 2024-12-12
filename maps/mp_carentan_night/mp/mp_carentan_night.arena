@@ -1,0 +1,5 @@
+{
+	map		"mp_carentan_night"
+	longname	"France, Carentan 1941"
+	gametype	"dm tdm sd ctf"
+}
