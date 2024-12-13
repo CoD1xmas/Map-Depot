@@ -1,9 +1,0 @@
-FxRunner
-{
-	flags				relative
-
-	playfx
-	[
-		fx/weapon/muzzleflash/mf_enfield_v
-	]
-}

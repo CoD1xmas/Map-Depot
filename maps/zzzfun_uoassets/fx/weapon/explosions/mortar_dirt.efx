@@ -1,9 +1,0 @@
-FxRunner
-{
-	name				_call_fx
-
-	playfx
-	[
-		fx/weapon/explosions/artillery_dirt
-	]
-}
