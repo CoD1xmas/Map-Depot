@@ -1,0 +1,6 @@
+name,sequence,file,vol_min,vol_max,pitch_min,pitch_max,dist_min,dist_max,lod_min,lod_max,channel,type,probability,loop,masterslave,loadspec,subtitle
+
+null,,null.wav,,,,,,,,,,,,,
+
+
+ambient_day,,ambient/amb_day01.wav,0.5,,,,,,,,local,streamed,,looping
