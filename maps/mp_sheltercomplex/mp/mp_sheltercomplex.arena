@@ -1,0 +1,5 @@
+{
+	map		"mp_sheltercomplex"
+	longname	"mp_sheltercomplex"
+	gametype	"dm tdm bel sd re hq"
+}

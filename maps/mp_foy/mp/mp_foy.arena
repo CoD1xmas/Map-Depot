@@ -1,0 +1,5 @@
+{
+map "mp_foy"
+longname "Battle of Foy"
+gametype "tdm dm sd bel re hq"
+}
